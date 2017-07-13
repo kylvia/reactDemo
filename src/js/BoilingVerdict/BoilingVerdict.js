@@ -1,0 +1,13 @@
+/**
+ * Created by p00422 on 2017/7/12.
+ */
+import React from 'react';
+
+export default class BoilingVerdict extends React.Component{
+    render(){
+        if(this.props.celsius >=100 ){
+            return <p>The water would boil.</p>
+        }
+        return <p>The water would not boil.</p>
+    }
+}
